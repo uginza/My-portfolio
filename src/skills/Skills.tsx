@@ -7,8 +7,8 @@ export function Skills() {
         <div className={s.skillBlock}>
             <div className={`${containerStyle.container} ${s.skillBlockContainer}`}>
                 <h2>Skills</h2>
+                <div className={s.skills}></div>
             </div>
-
         </div>
     );
 }

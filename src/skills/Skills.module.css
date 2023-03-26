@@ -4,5 +4,10 @@
 }
 
 .skillBlockContainer {
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.skills {
+    border: 1px solid;
 }
