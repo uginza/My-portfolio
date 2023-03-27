@@ -1,0 +1,16 @@
+.toHireBlock {
+    height: 50vh;
+    background-color: #96ffed;
+}
+
+.myProjectsBlockContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   /* align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;*/
+}
+
+
