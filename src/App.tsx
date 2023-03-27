@@ -6,6 +6,7 @@ import {Skills} from "./skills/Skills";
 import {MyProjects} from "./myProjects/MyProjects";
 import {ToHireMe} from "./ToHire/ToHireMe";
 import {Contacts} from "./Contacts/Contacts";
+import {Footer} from "./Footer/Footer";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <MyProjects/>
             <ToHireMe/>
             <Contacts/>
+            <Footer/>
         </div>
     );
 }

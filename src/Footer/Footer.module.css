@@ -1,0 +1,31 @@
+.FooterBlock {
+    height: 50vh;
+    background-color: #a9ff96;
+}
+
+.FooterBlockContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: center;
+     flex-direction: column;
+     justify-content: flex-start;*/
+}
+
+.icons {
+    width: 450px;
+    border:1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: burlywood;
+}
+
+
