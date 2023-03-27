@@ -14,7 +14,7 @@
 }
 
 .icons {
-    width: 450px;
+    width: 50%;
     border:1px solid;
     display: flex;
     flex-direction: row;
