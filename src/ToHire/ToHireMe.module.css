@@ -3,14 +3,12 @@
     background-color: #96ffed;
 }
 
-.myProjectsBlockContainer {
+.toHireBlockContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-   /* align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;*/
+    flex-wrap: wrap;
 }
 
 
