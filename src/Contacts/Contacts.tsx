@@ -9,12 +9,12 @@ export function Contacts() {
             <div className={`${containerStyle.container} ${s.toHireBlockBlockContainer}`}>
                 <h2>Contacts</h2>
                 <form className={s.form}>
-                    <input/>
-                    <input/>
+                    <input type='text'/>
+                    <input type='text'/>
                     <textarea>
                     </textarea>
                 </form>
-                <button>Send</button>
+                <button type='submit'>Send</button>
             </div>
         </div>
     );

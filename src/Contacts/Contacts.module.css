@@ -1,5 +1,4 @@
 .toHireBlock {
-    height: 100vh;
     background-color: #ff96f1;
 }
 
@@ -17,6 +16,10 @@
     width:50%;
     display: flex;
     flex-direction: column;
+}
+
+.form input,.form textarea{
+    width:100%
 }
 
 
