@@ -10,8 +10,10 @@ export function Skill(props:SkillPropsType) {
     return (
             <div className={s.skill}>
                 <div className={s.icon}></div>
-                <h3>{props.skillName}</h3>
-                <span className={s.description}>{props.description}</span>
+                <div className={s.skillInfo}>
+                    <h3 className={s.skillTitle}>{props.skillName}</h3>
+                    <span className={s.description}>{props.description}</span>
+                </div>
             </div>
     );
 }
