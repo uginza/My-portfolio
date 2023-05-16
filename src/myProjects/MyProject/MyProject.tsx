@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './MyProject.module.css';
+import s from './MyProject.module.scss';
 
 type MyProjectPropsType = {
     projectName: string
