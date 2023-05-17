@@ -1,0 +1,30 @@
+@import '../common/styles/variables';
+@import '../common/styles/mixins';
+
+.toHireBlock {
+  background-color: $bgColor2;
+
+  .toHireBlockBlockContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .text {
+      @include title(1.5,$textColorPrimary,500,20px);
+      margin-bottom: 15px !important;
+    }
+
+    .form {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+
+      .input, .textarea {
+        width: 100%
+      }
+    }
+  }
+}
+
+

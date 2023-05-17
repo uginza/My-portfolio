@@ -1,0 +1,42 @@
+@import '../common/styles/variables';
+@import '../common/styles/mixins';
+
+.FooterBlock {
+  height: 50vh;
+  background-color: $bgColor1;
+
+  .FooterBlockContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .text {
+      @include title(1.5, $textColorPrimary, 500, 20px);
+      margin-bottom: 15px !important;
+    }
+
+    .icons {
+      width: 50%;
+      border: 1px solid;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .icon {
+        height: 60px;
+        width: 60px;
+        background-color: burlywood;
+      }
+    }
+
+    .description {
+      @include title(1.5, $textColorPrimary, 500, 15px);
+      margin-bottom: 15px !important;
+    }
+  }
+}
+
+
+

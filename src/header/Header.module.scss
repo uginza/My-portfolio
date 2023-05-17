@@ -1,6 +1,8 @@
+@import '../common/styles/variables';
+
 .header{
     height: 80px;
-    background-color: #bde2e3;
+    background-color:$bgColor1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
