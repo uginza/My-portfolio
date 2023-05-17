@@ -1,5 +1,7 @@
+@import '../common/styles/variables';
+
 .skillBlock {
-  background-color: #f1f3f5;
+  background-color: $bgColor1;
 
   .skillBlockContainer {
     justify-content: center;

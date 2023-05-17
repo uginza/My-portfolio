@@ -1,9 +1,11 @@
+@import '../../common/styles/variables';
+
 .myProject {
   margin-top: 30px;
   width: 400px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  background-color: #f1f3f5;
+  background-color: $bgColor1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +22,7 @@
     &::before {
       position: absolute;
       content: '';
-      background-color: #1d1d1d;
+      background-color: $primaryColor;
       top: 0;
       bottom: 0;
       left: 0;
@@ -43,7 +45,7 @@
       font-weight: 500;
       line-height: 1.5;
       font-family: 'Sora', sans-serif;
-      color: #1d1d1d;
+      color: $textColorPrimary;
       margin-bottom: 15px !important;
     }
 
@@ -51,9 +53,9 @@
       line-height: 1.8;
       font-size: 16px;
       font-weight: 300;
-      color: #696969;
-      margin: 0;
+      color: $textColorSecondary;
       font-family: 'Sora', sans-serif;
+      margin: 0;
     }
   }
 }

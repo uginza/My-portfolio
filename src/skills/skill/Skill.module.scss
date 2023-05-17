@@ -1,9 +1,12 @@
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
+
 .skill {
   margin-top: 30px;
   width: 350px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  background-color: #f1f3f5;
+  background-color: $bgColor1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,21 +22,13 @@
     padding: 60px 40px;
 
     .skillTitle {
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1.5;
-      font-family: 'Sora', sans-serif;
-      color: #1d1d1d;
+      @include title(1.5,$textColorPrimary,500,20px);
       margin-bottom: 15px !important;
     }
 
     .description {
-      line-height: 1.8;
-      font-size: 16px;
-      font-weight: 300;
-      color: #696969;
+      @include title(1.8,$textColorSecondary,300,16px);
       margin: 0;
-      font-family: 'Sora', sans-serif;
     }
   }
 

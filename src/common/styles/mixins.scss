@@ -1,0 +1,9 @@
+@import '../../common/styles/variables';
+
+@mixin title($lineHeight,$color,$fontWeight,$fontSize){
+  line-height: $lineHeight;
+  color: $color;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}

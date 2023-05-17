@@ -1,5 +1,7 @@
+@import '../common/styles/variables';
+
 .myProjectsBlock {
-  background-color: #fff;
+  background-color: $bgColor2;
 
   .myProjectsBlockContainer {
     align-items: center;
