@@ -4,7 +4,7 @@ import s from './MyProject.module.scss';
 type MyProjectPropsType = {
     projectName: string
     description: string
-    style:any
+    style: { backgroundImage: string }
 }
 
 export function MyProject(props: MyProjectPropsType) {

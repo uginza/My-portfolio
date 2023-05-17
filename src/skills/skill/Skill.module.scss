@@ -13,9 +13,12 @@
   text-align: center;
 
   .icon {
-    height: 60px;
-    width: 60px;
-    background-color: burlywood;
+    height: 80px;
+    width: 80px;
+    background-color: $bgColor1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
 
   .skillInfo {
