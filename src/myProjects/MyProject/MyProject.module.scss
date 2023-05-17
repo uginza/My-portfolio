@@ -1,4 +1,5 @@
 @import '../../common/styles/variables';
+@import '../../common/styles/mixins';
 
 .myProject {
   margin-top: 30px;
@@ -41,20 +42,12 @@
     padding: 15px 40px;
 
     .myProjectTitle {
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1.5;
-      font-family: 'Sora', sans-serif;
-      color: $textColorPrimary;
+      @include title(1.5,$textColorPrimary,500,20px);
       margin-bottom: 15px !important;
     }
 
     .description {
-      line-height: 1.8;
-      font-size: 16px;
-      font-weight: 300;
-      color: $textColorSecondary;
-      font-family: 'Sora', sans-serif;
+      @include title(1.8,$textColorSecondary,300,16px);
       margin: 0;
     }
   }
