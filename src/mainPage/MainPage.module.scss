@@ -1,0 +1,39 @@
+@import '../common/styles/variables';
+@import '../common/styles/mixins';
+
+.mainPage {
+    height: 100vh;
+    background-color:$bgColor2;
+.MainPageBlockContainer{
+    margin-top: 60px;
+    justify-content: space-around;
+    .mainPageInfo {
+        margin-top: 30px;
+        width: 450px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        .mainPageTitle {
+            @include title(1.3,$textColorPrimary,600,55px);
+            margin-bottom: 15px !important;
+        }
+        .description {
+            @include title(1.0,$textColorSecondary,400,20px);
+        }
+    }
+    .photo {
+        width: 300px;
+        height: 400px;
+        background-color: #7171af;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+}
+}
+
+
+
+
+
+
+
