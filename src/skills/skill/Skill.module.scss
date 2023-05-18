@@ -16,9 +16,7 @@
     height: 80px;
     width: 80px;
     background-color: $bgColor1;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    @include bgSettings();
   }
 
   .skillInfo {

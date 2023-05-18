@@ -16,8 +16,7 @@
     height: 300px;
     width: 400px;
     background-image: url("https://phonoteka.org/uploads/posts/2022-01/1642989074_1-phonoteka-org-p-krasnaya-kartinka-fon-1.jpg");
-    background-size: cover;
-    background-position: center;
+    @include bgSettings();
     position: relative;
 
     &::before {

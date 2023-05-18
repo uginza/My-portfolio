@@ -7,3 +7,21 @@
   font-size: $fontSize;
   font-family: $fontFamily;
 }
+
+@mixin container(){
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin flex($flexDirection,$justifyContent,$alignItems){
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin bgSettings(){
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat ;
+}
