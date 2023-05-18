@@ -8,8 +8,8 @@ type TitlePropsType={
 export function Title(props:TitlePropsType) {
     return (
 
-        <div className={s.title}>
-            <h2>{props.text}</h2>
+        <div className={s.titleWrapper}>
+            <h2 className={s.title}>{props.text}</h2>
         </div>
     );
 }

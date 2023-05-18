@@ -12,7 +12,7 @@ export function MyProject(props: MyProjectPropsType) {
     return (
         <div className={s.myProject}>
             <div className={s.image} style={props.style}>
-               <div className={s.button}> <Button text={'show me'}/></div>
+               <div className={s.button}> <Button buttonText={'show me'}/></div>
             </div>
             <div className={s.myProjectInfo}>
                 <h3 className={s.myProjectTitle}>{props.projectName}</h3>

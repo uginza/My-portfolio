@@ -2,13 +2,8 @@
 @import '../../../common/styles/mixins';
 
 
-.title  {
-  @include title(1.3,$textColorPrimary,200,30px);
+.titleWrapper  {
   position: relative;
-
-  .title h2 {
-    margin: 0 0 30px;
-  }
 
   &::before {
     position: absolute;
@@ -20,4 +15,7 @@
     left: 50%;
     transform: translate(-50%, 50%);
   }
+}
+.title{
+  @include title(1.3,$textColorPrimary,600,45px);
 }

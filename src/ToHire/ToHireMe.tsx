@@ -9,7 +9,7 @@ export function ToHireMe() {
         <div className={s.toHireBlock}>
             <div className={s.toHireBlockContainer}>
                 <h2 className={s.text}>Remote work offers are considered</h2>
-                <div className={s.button}> <Button text={'hire!'}/></div>
+                <div className={s.button}> <Button buttonText={'hire!'}/></div>
             </div>
         </div>
     );

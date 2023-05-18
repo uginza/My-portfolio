@@ -16,7 +16,7 @@ export function Contacts() {
                     <textarea>
                     </textarea>
                 </form>
-                <div className={s.button}> <Button text={'to write!'}/></div>
+                <div className={s.button}> <Button buttonText={'to write!'}/></div>
             </div>
         </div>
     );
