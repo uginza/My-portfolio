@@ -45,10 +45,12 @@
     .description {
       @include title(1.8,$textColorSecondary,300,16px);
       margin: 0;
+
     }
   }
   .button{
-    margin-top:35%;
+    margin-top: 40%;
+    position: relative;
   }
 }
 

@@ -1,14 +1,13 @@
 import React from 'react';
 import s from './Contacts.module.scss';
-import containerStyle from '../common/styles/containerStyle.module.css'
 import {Button} from "../common/components/button/Button";
 import {Title} from "../common/components/title/Title";
 
 
 export function Contacts() {
     return (
-        <div className={s.toHireBlock}>
-            <div className={s.toHireBlockBlockContainer}>
+        <div className={s.ContactsBlock}>
+            <div className={s.ContactsBlockContainer}>
                 <Title text={'Contacts'}/>
                 <form className={s.form}>
                     <input type='text'/>
