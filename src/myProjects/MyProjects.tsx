@@ -15,7 +15,7 @@ export function MyProjects() {
     };
     return (
         <div className={s.myProjectsBlock}>
-            <div className={`${containerStyle.container} ${s.myProjectsBlockContainer}`}>
+            <div className={s.myProjectsBlockContainer}>
                 <Title text={'My projects'}/>
                 <div className={s.projects}>
                     <MyProject style={socialNetworkImage} projectName={'Social Network'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis, ipsum at aliquet varius'}/>

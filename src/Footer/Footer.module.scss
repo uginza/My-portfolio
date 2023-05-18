@@ -6,6 +6,8 @@
   background-color: $bgColor1;
 
   .FooterBlockContainer {
+    @include container();
+    @include flex(column,space-around,center);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -19,10 +21,7 @@
     .icons {
       width: 50%;
       border: 1px solid;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
+      @include flex(row,space-between,center);
 
       .icon {
         height: 60px;

@@ -5,6 +5,7 @@
     height: 100vh;
     background-color:$bgColor2;
 .MainPageBlockContainer{
+    @include container();
     margin-top: 60px;
     justify-content: space-around;
     .mainPageInfo {

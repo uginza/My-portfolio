@@ -5,10 +5,8 @@
   background-color: $bgColor2;
 
   .toHireBlockBlockContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    @include container();
+    @include flex(column,space-around,center);
 
     .text {
       @include title(1.5,$textColorPrimary,500,20px);

@@ -10,7 +10,7 @@ export function MainPage() {
     };
     return (
         <div className={s.mainPage}>
-            <div className={`${containerStyle.container} ${s.MainPageBlockContainer}`}>
+            <div className={s.MainPageBlockContainer}>
                 <div className={s.mainPageInfo}>
                     <h6 className={s.description}>Hi there!I'm Evgeniy Zakharov</h6>
                     <h1 className={s.mainPageTitle}>

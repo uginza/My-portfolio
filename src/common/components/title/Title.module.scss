@@ -2,8 +2,8 @@
 @import '../../../common/styles/mixins';
 
 
-.title {
-  @include title(1.3,$textColorPrimary,450,30px);
+.title  {
+  @include title(1.3,$textColorPrimary,200,30px);
   position: relative;
 
   .title h2 {

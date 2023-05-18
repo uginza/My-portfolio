@@ -6,12 +6,9 @@
   background-color: $bgColor1;
 
   .toHireBlockContainer {
+    @include container();
+    @include flex(column,center,center);
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 
     .text {
       margin-top: 60px;

@@ -1,18 +1,17 @@
 @import '../common/styles/variables';
+@import '../common/styles/mixins';
 
 .skillBlock {
   background-color: $bgColor1;
 
   .skillBlockContainer {
+    @include container();
     justify-content: center;
 
     .skills {
       border: 1px solid;
       width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-wrap: wrap;
+      @include flex(row, space-between, flex-start);
       margin-top: 30px;
       @media screen and (max-width: 1320px) {
         justify-content: center;

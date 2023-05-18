@@ -1,21 +1,19 @@
 @import '../common/styles/variables';
+@import '../common/styles/mixins';
 
 .myProjectsBlock {
   background-color: $bgColor2;
 
   .myProjectsBlockContainer {
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
+
+    @include container();
+    @include flex(column,flex-start,center);
 
     .projects {
       border: 1px solid;
       width: 100%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
+      @include flex(row,space-around,flex-start);
       margin-top: 30px;
-      align-items: flex-start;
     }
   }
 }
