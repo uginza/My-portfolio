@@ -10,12 +10,12 @@ export function Contacts() {
             <div className={s.ContactsBlockContainer}>
                 <Title text={'Contacts'}/>
                 <form className={s.form}>
-                    <input type='text'/>
-                    <input type='text'/>
-                    <textarea>
+                    <input type='text' className={s.formArea}/>
+                    <input type='text' className={s.formArea}/>
+                    <textarea className={s.textArea}>
                     </textarea>
+                    <div className={s.button}><Button buttonText={'to write!'}/></div>
                 </form>
-                <div className={s.button}> <Button buttonText={'to write!'}/></div>
             </div>
         </div>
     );
