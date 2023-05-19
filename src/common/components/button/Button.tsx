@@ -7,8 +7,7 @@ type ButtonPropsType = {
 
 export function Button(props: ButtonPropsType) {
     return (
-        <a href="" className={s.tag}>
-            <span>{props.buttonText}</span>
-        </a>
+        <button className={s.tag}>{props.buttonText}</button>
+
     );
 }
