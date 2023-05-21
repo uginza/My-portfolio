@@ -10,7 +10,6 @@
     @include flex(column,flex-start,center);
 
     .projects {
-      border: 1px solid;
       width: 100%;
       @include flex(row,space-around,flex-start);
       margin-top: 30px;

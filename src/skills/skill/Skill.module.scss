@@ -9,6 +9,7 @@
   background-color: $bgColor1;
   @include flex(column,flex-start,center);
   .icon {
+    margin-top:10px;
     height: 80px;
     width: 80px;
     background-color: $bgColor1;
