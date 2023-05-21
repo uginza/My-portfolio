@@ -4,6 +4,7 @@ import myPhoto from '../assets/images/myPhoto.jpg'
 import type {Container, Engine} from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
+import {Zoom} from "react-awesome-reveal";
 
 export function MainPage() {
     const myPhotoImage = {
@@ -113,16 +114,22 @@ export function MainPage() {
                     detectRetina: true,
                 }}
             />
+
             <div className={s.MainPageBlockContainer}>
+                <Zoom delay={500} triggerOnce>
                 <div className={s.mainPageInfo}>
                     <h6 className={s.description}>Hi there!I'm Evgeniy Zakharov</h6>
                     <h1 className={s.mainPageTitle}>
                         Frontend developer</h1>
                 </div>
+            </Zoom>
+                <Zoom delay={900} triggerOnce>
                 <div className={s.photoWrapper}>
-                    <div className={s.photo} style={myPhotoImage}></div>
+                        <div className={s.photo} style={myPhotoImage}></div>
                 </div>
+                </Zoom>
             </div>
+
         </div>
     );
 }
