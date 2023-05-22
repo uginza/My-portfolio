@@ -19,7 +19,7 @@ export function Skills() {
     };
     return (
         <div className={s.skillBlock}>
-            <Fade delay={500} triggerOnce>
+            <Fade delay={0} triggerOnce>
                 <div className={s.skillBlockContainer}>
                     <Title text={'Skills'}/>
                     <div className={s.skills}>

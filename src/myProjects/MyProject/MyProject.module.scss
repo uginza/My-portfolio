@@ -3,7 +3,7 @@
 
 .myProject {
   margin-bottom:10px;
-  width: 400px;
+  max-width: 400px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background-color: $bgColor1;
@@ -12,7 +12,8 @@
 
   .image {
     height: 300px;
-    width: 400px;
+    width: 100%;
+    border-radius: 10px;
     background-image: url("https://phonoteka.org/uploads/posts/2022-01/1642989074_1-phonoteka-org-p-krasnaya-kartinka-fon-1.jpg");
     @include bgSettings();
     position: relative;

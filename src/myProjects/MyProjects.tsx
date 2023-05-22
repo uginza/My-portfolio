@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './MyProjects.module.scss';
-import containerStyle from '../common/styles/containerStyle.module.css'
 import {MyProject} from "./MyProject/MyProject";
 import {Title} from "../common/components/title/Title";
 import todolistImg from '../assets/images/todolist.png'
@@ -16,7 +15,7 @@ export function MyProjects() {
     };
     return (
         <div className={s.myProjectsBlock}>
-            <Fade delay={500} triggerOnce>
+            <Fade delay={0} triggerOnce>
             <div className={s.myProjectsBlockContainer}>
                 <Title text={'My projects'}/>
                 <div className={s.projects}>
