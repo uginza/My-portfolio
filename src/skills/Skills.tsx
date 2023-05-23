@@ -18,7 +18,7 @@ export function Skills() {
         backgroundImage: `url(${jsIcon})`,
     };
     return (
-        <div className={s.skillBlock}>
+        <div id={'skills'} className={s.skillBlock}>
             <Zoom delay={500} triggerOnce>
                 <div className={s.skillBlockContainer}>
                     <Title text={'Skills'}/>

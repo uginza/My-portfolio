@@ -7,7 +7,7 @@ import {Fade, Zoom} from "react-awesome-reveal";
 
 export function Contacts() {
     return (
-        <div className={s.ContactsBlock}>
+        <div id='contacts' className={s.ContactsBlock}>
             <Zoom delay={500} triggerOnce>
             <div className={s.ContactsBlockContainer}>
                 <Title text={'Contacts'}/>

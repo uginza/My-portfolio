@@ -19,6 +19,7 @@
     justify-content: space-around;
 
     .mainPageInfo {
+      min-height:350px;
       span{
         @include title(1.3, $textColorPrimary, 600, 55px);
         margin-bottom: 15px !important;

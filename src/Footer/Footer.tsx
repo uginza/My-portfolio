@@ -5,7 +5,7 @@ import {Fade, Zoom} from "react-awesome-reveal";
 
 export function Footer() {
     return (
-        <div className={s.FooterBlock}>
+        <div id='footer' className={s.FooterBlock}>
             <Zoom delay={500} triggerOnce>
             <div className={s.FooterBlockContainer}>
                 <h2 className={s.text}>Evgeniy Zakharov</h2>

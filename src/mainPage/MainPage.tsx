@@ -130,7 +130,7 @@ export function MainPage() {
                 }}
             />
 
-            <div className={s.MainPageBlockContainer}>
+            <div id='mainPage' className={s.MainPageBlockContainer}>
                 <Zoom delay={500} triggerOnce>
                 <div className={s.mainPageInfo}>
                     <h6 className={s.description}>Hi there!I'm Evgeniy Zakharov</h6>
@@ -140,7 +140,7 @@ export function MainPage() {
                 </div>
             </Zoom>
                 <Zoom delay={900} triggerOnce>
-                    <Tilt options={defaultOptions} style={{ height: 250, width: 250 }}>
+                    <Tilt options={defaultOptions}>
                         <div className={s.photoWrapper}>
                             <div className={s.photo} style={myPhotoImage}></div>
                         </div>

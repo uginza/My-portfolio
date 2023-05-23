@@ -14,7 +14,7 @@ export function MyProjects() {
         backgroundImage: `url(${socialNetworkImg})`,
     };
     return (
-        <div className={s.myProjectsBlock}>
+        <div id='projects' className={s.myProjectsBlock}>
             <Zoom delay={500} triggerOnce>
             <div className={s.myProjectsBlockContainer}>
                 <Title text={'My projects'}/>
