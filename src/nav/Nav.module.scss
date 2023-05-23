@@ -2,12 +2,14 @@
 @import '../common/styles/mixins';
 
 .nav {
+  scroll-behavior: smooth;
   @include container();
   width: 500px;
   display: flex;
   justify-content: space-around;
 
   .text {
+    cursor: pointer;
     @include title(1.5, $textColorPrimary, 400, 16px);
     text-decoration: none;
   }
