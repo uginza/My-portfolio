@@ -5,7 +5,7 @@ import {Title} from "../common/components/title/Title";
 import reactIcon from "../assets/images/react2.svg";
 import htmlIcon from "../assets/images/Html.svg";
 import jsIcon from "../assets/images/js.svg";
-import {Fade} from "react-awesome-reveal";
+import {Fade, Zoom} from "react-awesome-reveal";
 
 export function Skills() {
     const reactImage = {
@@ -19,7 +19,7 @@ export function Skills() {
     };
     return (
         <div className={s.skillBlock}>
-            <Fade delay={0} triggerOnce>
+            <Zoom delay={500} triggerOnce>
                 <div className={s.skillBlockContainer}>
                     <Title text={'Skills'}/>
                     <div className={s.skills}>
@@ -32,7 +32,7 @@ export function Skills() {
                                description={'placeat facere possimus, omnis voluptas assumenda est,'}/>
                     </div>
                 </div>
-            </Fade>
+            </Zoom>
         </div>
     );
 }

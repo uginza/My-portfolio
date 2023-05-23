@@ -5,6 +5,8 @@ import type {Container, Engine} from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
 import {Zoom} from "react-awesome-reveal";
+import ReactTypingEffect from 'react-typing-effect';
+
 
 export function MainPage() {
     const myPhotoImage = {
@@ -119,8 +121,9 @@ export function MainPage() {
                 <Zoom delay={500} triggerOnce>
                 <div className={s.mainPageInfo}>
                     <h6 className={s.description}>Hi there!I'm Evgeniy Zakharov</h6>
-                    <h1 className={s.mainPageTitle}>
-                        Frontend developer</h1>
+                    <ReactTypingEffect
+                        text='Frontend developer'
+                    />
                 </div>
             </Zoom>
                 <Zoom delay={900} triggerOnce>

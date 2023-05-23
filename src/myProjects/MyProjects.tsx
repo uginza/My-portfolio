@@ -4,7 +4,7 @@ import {MyProject} from "./MyProject/MyProject";
 import {Title} from "../common/components/title/Title";
 import todolistImg from '../assets/images/todolist.png'
 import socialNetworkImg from '../assets/images/social-network.jpg'
-import {Fade} from "react-awesome-reveal";
+import {Fade, Zoom} from "react-awesome-reveal";
 
 export function MyProjects() {
     const todolistImage = {
@@ -15,7 +15,7 @@ export function MyProjects() {
     };
     return (
         <div className={s.myProjectsBlock}>
-            <Fade delay={0} triggerOnce>
+            <Zoom delay={500} triggerOnce>
             <div className={s.myProjectsBlockContainer}>
                 <Title text={'My projects'}/>
                 <div className={s.projects}>
@@ -23,7 +23,7 @@ export function MyProjects() {
                     <MyProject style={todolistImage} projectName={'Todolist'} description={'At vero eos et accusamus et iusto odio dignissimos'}/>
                 </div>
             </div>
-            </Fade>
+            </Zoom>
         </div>
     );
 }

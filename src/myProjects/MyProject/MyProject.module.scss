@@ -19,6 +19,7 @@
     position: relative;
 
     &::before {
+      border-radius: 10px;
       position: absolute;
       content: '';
       background-color: $primaryColor;

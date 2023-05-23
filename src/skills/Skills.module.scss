@@ -3,7 +3,6 @@
 
 .skillBlock {
   background-color: $bgColor1;
-
   .skillBlockContainer {
     @include container();
     justify-content: center;

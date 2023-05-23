@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './Footer.module.scss';
-import {Fade} from "react-awesome-reveal";
+import {Fade, Zoom} from "react-awesome-reveal";
 
 
 export function Footer() {
     return (
         <div className={s.FooterBlock}>
-            <Fade delay={500} triggerOnce>
+            <Zoom delay={500} triggerOnce>
             <div className={s.FooterBlockContainer}>
                 <h2 className={s.text}>Evgeniy Zakharov</h2>
                 <div className={s.icons}>
@@ -17,7 +17,7 @@ export function Footer() {
                 </div>
                 <h3 className={s.description}>© 2023 all rights reserved</h3>
             </div>
-            </Fade>
+            </Zoom>
         </div>
     );
 }
