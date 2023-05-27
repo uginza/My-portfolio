@@ -2,7 +2,10 @@
 @import '../common/styles/mixins';
 
 .header{
+    position: sticky;
+    top: 0;
     height: 80px;
     background-color:$bgColor1;
     @include flex(row,flex-end,center);
+    z-index: 100;
 }
