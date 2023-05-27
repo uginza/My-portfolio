@@ -12,5 +12,11 @@
     cursor: pointer;
     @include title(1.5, $textColorPrimary, 400, 16px);
     text-decoration: none;
+    &:hover{
+      color:$textColorSecondary;
+    }
+  }
+  .active{
+    color:$textColorSecondary;
   }
 }
