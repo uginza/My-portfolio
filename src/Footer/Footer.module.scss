@@ -20,13 +20,11 @@
 
     .icons {
       width: 50%;
-      border: 1px solid;
-      @include flex(row,space-between,center);
+      @include flex(row,space-around,center);
 
       .icon {
         height: 60px;
         width: 60px;
-        background-color: burlywood;
       }
     }
 
