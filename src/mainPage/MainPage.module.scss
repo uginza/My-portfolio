@@ -21,7 +21,9 @@
     .mainPageInfo {
       min-height:350px;
       span{
-        @include title(1.3, $textColorPrimary, 600, 55px);
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        @include title(2.8, $textColorPrimary, 600, 55px);
         margin-bottom: 15px !important;
       }
       margin-top: 30px;
@@ -33,8 +35,14 @@
         @include title(1.3, $textColorPrimary, 600, 55px);
         margin-bottom: 15px !important;
       }*/
-
+      .myName{
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        @include title(2.7, $textColorPrimary, 400, 20px);
+      }
       .description {
+        word-spacing: 2px;
+        letter-spacing: 2px;
         @include title(1.0, $textColorSecondary, 400, 20px);
       }
     }

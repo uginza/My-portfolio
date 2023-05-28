@@ -14,11 +14,13 @@
     align-items: center;
 
     .text {
+      padding:10px;
       @include title(1.5, $textColorPrimary, 500, 20px);
       margin-bottom: 15px !important;
     }
 
     .icons {
+      padding:10px;
       width: 50%;
       @include flex(row,space-around,center);
 
@@ -29,6 +31,7 @@
     }
 
     .description {
+      padding: 30px;
       @include title(1.5, $textColorPrimary, 500, 15px);
       margin-bottom: 15px !important;
     }
