@@ -1,18 +1,20 @@
 import React from 'react';
 import s from './MyProject.module.scss';
-import {Button} from "../../common/components/button/Button";
+import {Link} from "../../common/components/LinkComponent/Link";
 
 type MyProjectPropsType = {
     projectName: string
     description: string
     style: { backgroundImage: string }
+    href:string
+    linkText:string
 }
 
 export function MyProject(props: MyProjectPropsType) {
     return (
         <div className={s.myProject}>
             <div className={s.image} style={props.style}>
-               <div className={s.button}> <Button buttonText={'show me'}/></div>
+               <div className={s.link}> <Link href={props.href} linkText={props.linkText}/></div>
             </div>
             <div className={s.myProjectInfo}>
                 <h3 className={s.myProjectTitle}>{props.projectName}</h3>
