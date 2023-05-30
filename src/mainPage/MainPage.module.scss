@@ -19,7 +19,7 @@
     justify-content: space-between;
 
     .mainPageInfo {
-      min-height:350px;
+      min-height:612px;
       span{
         letter-spacing: 2px;
         word-spacing: 2px;
@@ -38,12 +38,12 @@
       .myName{
         word-spacing: 2px;
         letter-spacing: 2px;
-        @include title(2.7, $textColorPrimary, 400, 20px);
+        @include title(2.7, $textColorPrimary, 400, 25px);
       }
       .description {
         word-spacing: 2px;
         letter-spacing: 2px;
-        @include title(1.0, $textColorSecondary, 400, 20px);
+        @include title(1.0, $textColorPrimary, 400, 20px);
       }
     }
     .photoWrapper{

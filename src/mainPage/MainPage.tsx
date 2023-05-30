@@ -133,7 +133,7 @@ export function MainPage() {
             <div id='mainPage' className={s.MainPageBlockContainer}>
                 <Zoom delay={500} triggerOnce>
                 <div className={s.mainPageInfo}>
-                    <div><span className={s.description}>Hi there!</span><span className={s.myName}>I'm Evgeniy Zakharov</span></div>
+                    <div><span className={s.description}>Hi there!</span><span className={s.myName}>  I'm Evgeniy Zakharov</span></div>
                     <ReactTypingEffect
                         text='Frontend developer'
                     />

@@ -14,10 +14,10 @@ export function Footer() {
             <div className={s.FooterBlockContainer}>
                 <h2 className={s.text}>Evgeniy Zakharov</h2>
                 <div className={s.icons}>
-                    <img className={s.icon} src={telegramIcon} alt='telegramIcon'/>
-                    <img className={s.icon} src={gitHubIcon} alt='telegramIcon'/>
-                    <img className={s.icon} src={linkedInIcon} alt='telegramIcon'/>
-                    <img className={s.icon} src={instagramIcon} alt='telegramIcon'/>
+                    <a href="https://t.me/uginza"><img className={s.icon} src={telegramIcon} alt='telegramIcon'/></a>
+                    <a href="https://github.com/uginza"><img className={s.icon} src={gitHubIcon} alt='gitHubIcon'/></a>
+                    <a href="https://t.me/uginza"><img className={s.icon} src={linkedInIcon} alt='linkedInIcon'/></a>
+                    <a href="https://www.instagram.com/uginza"><img className={s.icon} src={instagramIcon} alt='instagramIcon'/></a>
                 </div>
                 <h3 className={s.description}>© 2023 all rights reserved</h3>
             </div>

@@ -9,7 +9,7 @@
 
     .skills {
       width: 100%;
-      @include flex(row, space-between, flex-start);
+      @include flex(row, space-around, center);
       margin-top: 30px;
       @media screen and (max-width: 1320px) {
         justify-content: center;
