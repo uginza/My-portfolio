@@ -16,7 +16,7 @@ export function Contacts() {
                     <input type='text' className={s.formArea}/>
                     <textarea className={s.textArea}>
                     </textarea>
-                    <div className={s.button}><Button buttonText={'to write!'}/></div>
+                    <div className={s.link}><Button buttonText={'to write!'}/></div>
                 </form>
             </div>
             </Zoom>
