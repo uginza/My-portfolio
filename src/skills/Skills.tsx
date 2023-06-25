@@ -52,25 +52,25 @@ export function Skills() {
                     <Title text={'Skills'}/>
                     <div className={s.skills}>
                         <Skill style={reactImage} skillName={'REACT'}
-                               description={'placeat facere possimus, omnis voluptas assumenda est,'}/>
+                               description={''}/>
                         <Skill style={tsImage} skillName={'TS'}
-                               description={'At vero eos et accusamus et iusto odio dignissimos'}/>
+                               description={''}/>
                         <Skill style={jsImage} skillName={'JS'}
-                               description={'At vero eos et accusamus et iusto odio dignissimos'}/>
+                               description={''}/>
                         <Skill style={reduxImage} skillName={'REDUX-TOOLKIT'}
-                               description={'placeat facere possimus, omnis voluptas assumenda est,'}/>
+                               description={''}/>
                         <Skill style={formikImage} skillName={'FORMIK'}
-                               description={'placeat facere possimus, omnis voluptas assumenda est,'}/>
+                               description={''}/>
                         <Skill style={restApiImage} skillName={'REST-API'}
-                               description={'placeat facere possimus, omnis voluptas assumenda est,'}/>
+                               description={''}/>
                         <Skill style={storyBookImage} skillName={'STORY BOOK'}
-                               description={'placeat facere possimus, omnis voluptas assumenda est,'}/>
+                               description={''}/>
                         <Skill style={unitTestsImage} skillName={'UNIT TESTS'}
-                               description={'placeat facere possimus, omnis voluptas assumenda est,'}/>
+                               description={''}/>
                         <Skill style={htmlImage} skillName={'HTML'}
-                               description={'placeat facere possimus, omnis voluptas assumenda est,'}/>
+                               description={''}/>
                         <Skill style={cssImage} skillName={"CSS"}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis, ipsum at aliquet varius'}/>
+                               description={''}/>
                     </div>
                 </div>
             </Zoom>

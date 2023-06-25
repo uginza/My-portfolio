@@ -18,7 +18,7 @@ export function Contacts() {
             const errors: FormikErrorType = {}
             if (!values.firstName) {
                 errors.firstName = 'Required';
-            } else if (values.firstName.length > 15) {
+            } else if (values.firstName.length >= 15) {
                 errors.firstName = 'Must be 15 characters or less';
             }
             if (!values.email) {
@@ -50,7 +50,9 @@ export function Contacts() {
                     <Title text={'Contacts'}/>
                     <form
                         className={s.form}
-                        onSubmit={formik.handleSubmit}>
+                        action="mailto:uginza@yandex.ru"
+                         /*onSubmit={formik.handleSubmit}*/
+                    >
                         <label htmlFor="email">Email Address</label>
                         {formik.touched.email && formik.errors.email ? <div className={s.error}>{formik.errors.email}</div> : null}
                         <input

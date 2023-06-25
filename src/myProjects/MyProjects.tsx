@@ -24,9 +24,9 @@ export function MyProjects() {
             <div className={s.myProjectsBlockContainer}>
                 <Title text={'My projects'}/>
                 <div className={s.projects}>
-                    <MyProject style={socialNetworkImage} projectName={'Social Network'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis, ipsum at aliquet varius'} href={"https://uginza.github.io/samurai-way-main/"} linkText={'show me'}/>
-                    <MyProject style={todolistImage} projectName={'Todolist'} description={'At vero eos et accusamus et iusto odio dignissimos'} href={'https://uginza.github.io/todolist/'} linkText={'show me'} />
-                    <MyProject style={counterImage} projectName={'Counter'} description={'At vero eos et accusamus et iusto odio dignissimos'} href={'https://uginza.github.io/Counter/'} linkText={'show me'} />
+                    <MyProject style={socialNetworkImage} projectName={'Social Network'} description={'Completed project made with React and ReduxToolkit '} href={"https://uginza.github.io/samurai-way-main/"} linkText={'show me'}/>
+                    <MyProject style={todolistImage} projectName={'Todolist'} description={'Completed project made with React and ReduxToolkit '} href={'https://uginza.github.io/todolist/'} linkText={'show me'} />
+                    <MyProject style={counterImage} projectName={'Counter'} description={'Completed project of counter with setting parameters ability'} href={'https://uginza.github.io/Counter/'} linkText={'show me'} />
                 </div>
             </div>
             </Zoom>
